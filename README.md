@@ -52,7 +52,7 @@ webui-user.bat       # For Windows
   ```
 - You can also configure other parameters inn the `webui-user.bat` file for Windows, or `webui-user.sh` file for Linux.
 
-- My prefered commandline arguments: `--port [whatever OPEN port number you prefer] --no-half-vae --xformers --listen --api`
+- My prefered commandline arguments: `--device-id=0 --port [whatever OPEN port number you prefer] --no-half-vae --xformers --listen --api`
 
 ---
 
