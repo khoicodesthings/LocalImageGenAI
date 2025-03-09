@@ -5,16 +5,16 @@ This guide provides instructions on how to set up and host your own image genera
 ## Prerequisites/Assumptions I will make about you
 
 - **Operating System:** Windows/Linux/Mac
-- **GPU:** NVIDIA GPU with at least 4GB VRAM (higher VRAM recommended for larger models)
+- **GPU:** Either your system has a dedicated NVIDIA GPU with at least 8GB VRAM (higher VRAM recommended for larger models) OR you know how to get access to a virtual machine with similar specs (either through [Google Cloud](https://cloud.google.com/gpu) or [runpod](https://www.runpod.io/))
 - **Drivers:** Ensure you have the latest NVIDIA drivers installed
-- **Software Requirements:**
+- **Some Other Requirements:**
   - Python 3.10 or higher
   - Git
   - CUDA (for NVIDIA GPUs)
 
 ## Installation
 
-This is how I do it, there are other ways to do it on A1111's repo
+This is how I do it on both Windows and Linux. The A1111's repo has very detailed instructions on how to install on different operating systems.
 
 ### 1. Clone the Repository
 ```sh
@@ -45,23 +45,14 @@ To start the server, use:
 ./webui.sh --listen  # For Linux/Mac
 webui-user.bat       # For Windows
 ```
-- By default, the WebUI runs on **http://127.0.0.1:7860**
+- By default, the WebUI runs on **http://localhost:7860**
 - To make it accessible over a network, add the `--listen` flag:
   ```sh
   ./webui.sh --listen
   ```
+- You can also configure other parameters inn the `webui-user.bat` file for Windows, or `webui-user.sh` file for Linux.
 
-## Additional Features
-- **Customizing UI:** Modify settings in `config.json`
-- **Installing Extensions:** Use the "Extensions" tab to install community add-ons
-- **Optimizing Performance:**
-  - Enable `--medvram` or `--lowvram` for GPUs with limited VRAM
-  - Use `--xformers` for improved efficiency
-
-## Troubleshooting
-- **WebUI not launching?** Ensure Python and Git are installed.
-- **Black images?** Your model might be corrupted or missing a VAE file.
-- **Slow generation?** Try reducing the resolution or using a more optimized sampler.
+- My prefered commandline arguments: `--port [whatever OPEN port number you prefer] --no-half-vae --xformers --listen --api`
 
 ---
 
