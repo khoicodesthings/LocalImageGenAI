@@ -2,7 +2,7 @@
 
 This guide provides instructions on how to set up and host your own image generation model using [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 
-## Prerequisites/Assumptions I will make about you
+## Prerequisites/Assumptions I Will Need To Make
 
 - **Operating System:** Windows/Linux/Mac
 - **GPU:** Either your system has a dedicated NVIDIA GPU with at least 8GB VRAM (higher VRAM recommended for larger models) OR you know how to get access to a virtual machine with similar specs (either through [Google Cloud](https://cloud.google.com/gpu) or [runpod](https://www.runpod.io/))
