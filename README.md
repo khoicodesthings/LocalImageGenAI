@@ -19,6 +19,9 @@ This is how I do it on both Windows and Linux. The A1111's repo has very detaile
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+```
+### 2. Navigate into the Directory
+```sh
 cd stable-diffusion-webui
 ```
 
@@ -28,13 +31,13 @@ cd stable-diffusion-webui
 - Experiment with different model sizes to figure out what works best for your setup!
 
 ## Running the WebUI
-To start the server, use:
+To start the server, navigate into the directory, then use:
 ```sh
 ./webui.sh --listen  # For Linux/Mac
 webui-user.bat       # For Windows
 ```
 - By default, the WebUI runs on **http://localhost:7860**
-- To make it accessible over a network, add the `--listen` flag:
+- To make it accessible over your network, add the `--listen` flag:
   ```sh
   ./webui.sh --listen
   ```
