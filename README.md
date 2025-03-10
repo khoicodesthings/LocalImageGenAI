@@ -22,11 +22,12 @@ git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 ```
 
-### 2. Download a Model Checkpoint
-- Download a Stable Diffusion model (e.g., **v1.5, v2.1, SDXL**)
-- Place the `.ckpt` or `.safetensors` file in the `models/Stable-diffusion` directory.
+### 2. Get Some Models
+- Download a Stable Diffusion model (e.g., **v1.5, v2.1, SDXL**) from huggingface.
+- Place the `.safetensors` file in the `models/Stable-diffusion` directory.
+- Experiment with different model sizes to figure out what works best for your setup!
 
-## 3. Running the WebUI
+## Running the WebUI
 To start the server, use:
 ```sh
 ./webui.sh --listen  # For Linux/Mac
