@@ -6,11 +6,11 @@ This guide provides instructions on how to set up and host your own image genera
 
 - **Operating System:** Windows/Linux/Mac
 - **GPU:** Either your system has a dedicated NVIDIA GPU with at least 8GB VRAM (higher VRAM recommended for larger models) OR you know how to get access to a virtual machine with similar specs (either through [Google Cloud](https://cloud.google.com/gpu) or [runpod](https://www.runpod.io/))
+  - The A1111's repo has installation guide if you have an AMD or Intel GPU, but I have not tested those steps yet. We will be using the instructions for NVIDIA GPUs for this workshop.
 - **Drivers:** Ensure you have the latest NVIDIA drivers installed
 - **Some Other Requirements:**
   - Python 3.10.6 (if you have an older or newer Python version, you will need to uninstall and then reinstall this version)
   - Git
-  - CUDA (for NVIDIA GPUs)
 
 ## Installation
 
