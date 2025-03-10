@@ -53,6 +53,13 @@ webui-user.bat       # For Windows
 - Send requests to the `/sdapi/v1/txt2img` endpoint.
 - For example, if you web UI is hosted at the default port 7860, you would point your requests to `http://localhost:7860/sdapi/v1/txt2img` with the appropriate json payload for parameters.
 - See `generate.py` for an example (thanks Dr. Maiti for letting me steal your code)
+- Before running the script, make sure you have:
+  - A working Python environment (which you should already have if you are able to run the web ui)
+  - The following Python packages:
+    - `requests`
+    - `Pillow`
+- You can install these packages using `pip`
+  - `pip install requests Pillow`
 
 ---
 
