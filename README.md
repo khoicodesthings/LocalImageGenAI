@@ -47,6 +47,13 @@ webui-user.bat       # For Windows
 - Generate with whatever prompts you would like!
 - Experiment with the different parameters in the UI!
 
+## Advanced: Use the API in your own code
+
+- With the `--api` tag, you can read the API documentaions at the `/doc` subdirectory.
+- Send requests to the `/sdapi/v1/txt2img` endpoint.
+- For example, if you web UI is hosted at the default port 7860, you would point your requests to `http://localhost:7860/sdapi/v1/txt2img` with the appropriate json payload for parameters.
+- See `generate.py` for an example (thanks Dr. Maiti for letting me steal your code)
+
 ---
 
 ### References
