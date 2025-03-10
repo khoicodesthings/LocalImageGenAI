@@ -8,7 +8,7 @@ This guide provides instructions on how to set up and host your own image genera
 - **GPU:** Either your system has a dedicated NVIDIA GPU with at least 8GB VRAM (higher VRAM recommended for larger models) OR you know how to get access to a virtual machine with similar specs (either through [Google Cloud](https://cloud.google.com/gpu) or [runpod](https://www.runpod.io/))
 - **Drivers:** Ensure you have the latest NVIDIA drivers installed
 - **Some Other Requirements:**
-  - Python 3.10 or higher
+  - Python 3.10.6 (if you have an older or newer Python version, you will need to uninstall and then reinstall this version)
   - Git
   - CUDA (for NVIDIA GPUs)
 
