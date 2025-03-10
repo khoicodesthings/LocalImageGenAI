@@ -42,6 +42,11 @@ webui-user.bat       # For Windows
 
 - My prefered commandline arguments: `--device-id=0 --port [whatever OPEN port number you prefer] --no-half-vae --xformers --listen --api`
 
+## Generate Some Images!
+
+- Generate with whatever prompts you would like!
+- Experiment with the different parameters in the UI!
+
 ---
 
 ### References
