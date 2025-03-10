@@ -59,7 +59,9 @@ webui-user.bat       # For Windows
     - `requests`
     - `Pillow`
 - You can install these packages using `pip`
-  - `pip install requests Pillow`
+   ```python
+    pip install requests Pillow
+    ```
 
 ---
 
