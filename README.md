@@ -26,20 +26,7 @@ cd stable-diffusion-webui
 - Download a Stable Diffusion model (e.g., **v1.5, v2.1, SDXL**)
 - Place the `.ckpt` or `.safetensors` file in the `models/Stable-diffusion` directory.
 
-### 3. Install Dependencies
-#### Windows:
-Run:
-```sh
-webui-user.bat
-```
-#### Linux/Mac:
-Run:
-```sh
-bash webui.sh
-```
-This script will automatically install required dependencies and start the WebUI.
-
-## Running the WebUI
+## 3. Running the WebUI
 To start the server, use:
 ```sh
 ./webui.sh --listen  # For Linux/Mac
