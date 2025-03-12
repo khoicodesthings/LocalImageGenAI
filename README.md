@@ -27,7 +27,7 @@ cd stable-diffusion-webui
 ```
 
 ### 2. Get Some Models
-- Download a Stable Diffusion model (e.g., **v1.5, v2.1, SDXL**) from huggingface.
+- Download a Stable Diffusion model (e.g., **[3.0](https://huggingface.co/stabilityai/stable-diffusion-3-medium), [SDXL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)**) from huggingface.
 - Place the `.safetensors` file in the `models/Stable-diffusion` directory.
 - Experiment with different model sizes to figure out what works best for your setup!
 
