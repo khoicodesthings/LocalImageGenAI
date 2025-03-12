@@ -11,6 +11,7 @@ This guide provides instructions on how to set up and host your own image genera
 - **Some Other Requirements:**
   - Python 3.10.6 (if you have an older or newer Python version, you will need to uninstall and then reinstall this version)
   - Git
+  - CUDA, since we will be focusing on NIVDIA GPUs
 
 ## Installation
 
@@ -43,7 +44,7 @@ webui-user.bat       # For Windows
   ```
 - You can also configure other parameters inn the `webui-user.bat` file for Windows, or `webui-user.sh` file for Linux.
 
-- My prefered commandline arguments:
+- My prefered commandline arguments for NVIDIA GPUs:
    ```sh
     --device-id=0 --port [whatever OPEN port number you prefer] --no-half-vae --xformers --listen --api
    ```
